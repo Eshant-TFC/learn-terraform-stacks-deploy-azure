@@ -12,6 +12,7 @@ variable "identity_token" {
 
 variable "subscription_id" {
   type = string
+  sensitive   = true
   ephemeral   = true
 }
 
