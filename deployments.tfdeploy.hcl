@@ -18,7 +18,7 @@ deployment "development" {
     regions = ["East US"]
 
 client_id    = store.varset.tokens.ARM_CLIENT_ID
-    subscription_id=    = store.varset.tokens.ARM_SUBSCRIPTION_ID
+    subscription_id    = store.varset.tokens.ARM_SUBSCRIPTION_ID
     tenant_id = store.varset.tokens.ARM_TENANT_ID
 
   #  client_id = "f7fd7c3f-d501-4be2-baec-447f7ce00d1d"
@@ -34,7 +34,7 @@ deployment "production" {
     regions = ["East US", "West US"]
 
 client_id    = store.varset.tokens.ARM_CLIENT_ID
-    subscription_id=    = store.varset.tokens.ARM_SUBSCRIPTION_ID
+    subscription_id   = store.varset.tokens.ARM_SUBSCRIPTION_ID
     tenant_id = store.varset.tokens.ARM_TENANT_ID
 
      #  client_id = "f7fd7c3f-d501-4be2-baec-447f7ce00d1d"
