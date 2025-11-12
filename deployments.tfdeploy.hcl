@@ -6,7 +6,7 @@ identity_token "azurerm" {
 }
 
 store "varset" "tokens" {
-  name     = "Example_Varset_Name"
+  name     = "VAR_STACKS_AZURE"
   category = "env"
 }
 
