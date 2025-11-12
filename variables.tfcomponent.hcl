@@ -22,6 +22,12 @@ variable "client_id" {
   ephemeral   = true
 }
 
+variable "client_secret" {
+  type = string
+  sensitive   = true
+  ephemeral   = true
+}
+
 variable "tenant_id" {
   type = string
   sensitive   = true
