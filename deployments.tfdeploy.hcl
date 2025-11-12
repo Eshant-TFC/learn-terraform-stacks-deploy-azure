@@ -13,7 +13,7 @@ store "varset" "tokens" {
 
 deployment "development" {
   inputs = {
-    identity_token = identity_token.azurerm.jwt
+    #identity_token = identity_token.azurerm.jwt
 
     regions = ["East US"]
 
@@ -29,7 +29,7 @@ client_id    = store.varset.tokens.ARM_CLIENT_ID
 
 deployment "production" {
   inputs = {
-    identity_token = identity_token.azurerm.jwt
+    #identity_token = identity_token.azurerm.jwt
 
     regions = ["East US", "West US"]
 
