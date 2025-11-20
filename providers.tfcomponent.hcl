@@ -31,7 +31,8 @@ provider "azurerm" "configurations" {
     #use_oidc        = true
     #oidc_token      = var.identity_token
     subscription_id = var.subscription_id
-    client_id       = var.client_id
+    #client_id       = var.client_id
+     client_id = "ce761cbb-ce4b-4451-9eac-08c4fadd9b7f"
     tenant_id       = var.tenant_id
     client_secret   = var.client_secret
   }
